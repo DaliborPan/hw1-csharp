@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>hw1_pv178</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Legend.cs" />
+    <Compile Remove="Player.cs" />
+    <Compile Remove="MonsterInterface.cs" />
+    <Compile Remove="GameOptions.cs" />
+  </ItemGroup>
+</Project>
